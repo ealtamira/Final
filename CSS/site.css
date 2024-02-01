@@ -1,0 +1,22 @@
+.color-palette{
+   border-color: #84a295;
+   accent-color: #efdb96;
+   outline-color: #b7cdc2;
+   color: #989992;
+   background-color: #eae6da;
+}
+
+.look-nice{
+   border: 5px;
+   margin: 10px,;
+   padding: 1%;
+}
+
+.picture{
+   width: 25%;
+   height: 25%;
+}
+
+.text{
+   size: 150px;
+}
