@@ -21,13 +21,15 @@ getquotes(api_url);
 // load api
 
 
-let images = [
+let images = 
+[
     "./image/img1.jpg",
     "./image/img2.jpg",
     "./image/img3.jpg",
     "./image/img4.jpg",
     "./image/img5.jpg"
 ];
+
 console.log(images);
 
 const myimage = document.getElementById("firstimg");
@@ -36,13 +38,16 @@ let currentImageindex = 0;
 
 function updateimage(){
 currentImageindex++;
+
 console.log(currentImageindex);
 console.log(images.length);
-    if(currentImageindex >= images.length){
+
+    if(currentImageindex >= images.length)
+        {
         currentImageindex = 0;
-    }
+        };
 
     myimage.src = images[currentImageindex];
 }
 
-setInterval(updateimage, 3000)
+setInterval(updateimage, 3000);
